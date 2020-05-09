@@ -14,7 +14,7 @@ import rimac.geo.util.ExcelUtilPropio;
 //@CucumberOptions(features = { "src/test/resources/features/" }, tags = {"@AsignarProcurador"}, glue = { "rimac" })
 public class RunRimac {
 
-//	@RunBefore
+	@RunBefore
 	public static void previo() {
 		ExcelUtilPropio.getInstancia().escribirFeatures();
 	}
